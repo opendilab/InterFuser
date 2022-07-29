@@ -1,5 +1,5 @@
 # InterFuser: Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer
-![pipeline](assets/pipeline.pdf)
+![pipeline](assets/pipeline.png)
 > Hao Shao, Letian Wang, RuoBing Chen, Hongsheng Li, Yu Liu        
 > [arXiV 2207.14024](https://arxiv.org/abs/2207.14024)
 
@@ -12,7 +12,7 @@ Our method achieves new state-of-the-art on [CARLA AD Leaderboard](https://leade
 
 ## Demo Video
 
-<img src="assets/Town07_WetCloudyMorning.gif" height="450" hspace=50>
+<img src="assets/Town07_WetCloudyMorning.gif" height="400">
 
 ## Reference
 If you find our repo, dataset or paper useful, please cite us as
