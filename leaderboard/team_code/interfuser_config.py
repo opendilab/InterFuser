@@ -27,7 +27,7 @@ class GlobalConfig:
     skip_frames = 1
     detect_threshold = 0.04
 
-    model = "interfuser_baseline_seperate_all"
+    model = "interfuser_baseline"
 
     def __init__(self, **kwargs):
         for k, v in kwargs.items():
