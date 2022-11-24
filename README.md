@@ -34,7 +34,7 @@ source ~/.profile
 Clone the repo and build the environment
 
 ```Shell
-git clone https://gitlab.bj.sensetime.com/shaohao/interfuser.git
+git clone https://github.com/opendilab/InterFuser.git
 cd interfuser
 conda create -n interfuser python=3.7
 conda activate interfuser
