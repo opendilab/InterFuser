@@ -35,7 +35,7 @@ Clone the repo and build the environment
 
 ```Shell
 git clone https://github.com/opendilab/InterFuser.git
-cd interfuser
+cd InterFuser
 conda create -n interfuser python=3.7
 conda activate interfuser
 pip3 install -r requirements.txt
