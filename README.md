@@ -161,8 +161,25 @@ DATASET_ROOT='dataset/'
     --multi-view --with-lidar --multi-view-input-size 3 128 128 \
     --experiment interfuser_baseline \
     --pretrained
+    
 
 ```
+
+The `DATASET_ROOT` needs a file dataset_index.txt to list the traing/evaluation data. The format should be like the follow:
+
+> route_path_dir data_frames_in_this_dir
+
+for example:
+
+> weather-7/data/routes_town06_long_w7_11_28_18_28_35/ 1062
+> weather-2/data/routes_town01_short_w2_11_16_08_27_10/ 1785
+> weather-2/data/routes_town01_short_w2_11_16_09_55_05/ 918
+> weather-2/data/routes_town02_short_w2_11_16_22_55_25/ 134
+> weather-2/data/routes_town01_short_w2_11_16_11_44_08/ 569
+> ...
+
+1062 is the number of the frames in weather-7/data/routes_town06_long_w7_11_28_18_28_35/rgb or weather-7/data/routes_town06_long_w7_11_28_18_28_35/rgb_front etc.
+
 ## Evaluation
 Spin up a CARLA server (described above) and run the required agent. The adequate routes and scenarios files are provided in ```leaderboard/data``` and the required variables need to be set in ```leaderboard/scripts/run_evaluation.sh```.
 Update ```leaderboard/scripts/run_evaluation.sh``` to include the following code for evaluating the model on Town05 Long Benchmark.
