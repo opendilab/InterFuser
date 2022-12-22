@@ -172,9 +172,13 @@ The `DATASET_ROOT` needs a file dataset_index.txt to list the traing/evaluation 
 for example:
 
 > weather-7/data/routes_town06_long_w7_11_28_18_28_35/ 1062
+> 
 > weather-2/data/routes_town01_short_w2_11_16_08_27_10/ 1785
+> 
 > weather-2/data/routes_town01_short_w2_11_16_09_55_05/ 918
+> 
 > weather-2/data/routes_town02_short_w2_11_16_22_55_25/ 134
+> 
 > weather-2/data/routes_town01_short_w2_11_16_11_44_08/ 569
 > ...
 
