@@ -100,7 +100,7 @@ class InterfuserController(object):
 
         self.in_stop_sign_effect = False
         self.block_stop_sign_distance = (
-            0  # it means in 30m, stop sign will not take effect again
+            0  # If this is 3 here, it means in 3m, stop sign will not take effect again
         )
         self.stop_sign_trigger_times = 0
 
