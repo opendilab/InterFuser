@@ -168,6 +168,7 @@ DATASET_ROOT='dataset/'
 The `DATASET_ROOT` needs a file dataset_index.txt to list the traing/evaluation data. The format should be like the follow:
 
 > route_path_dir data_frames_in_this_dir
+
 > route_path_dir needs to be a relative path to `DATASET_ROOT`, the training code will concat the `DATASET_ROOT` and route_path_dir as the full path to load the data
 
 for example:
