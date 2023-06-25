@@ -1,13 +1,12 @@
 # InterFuser: Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer
 ![pipeline](assets/pipeline.png)
-> Hao Shao, Letian Wang, RuoBing Chen, Hongsheng Li, Yu Liu
+> [Hao Shao](http://hao-shao.com/), [Letian Wang](https://letianwang0.wixsite.com/myhome), RuoBing Chen, [Hongsheng Li](http://www.ee.cuhk.edu.hk/~hsli/), [Yu Liu](https://liuyu.us/)
+> 
 > [CoRL 2022](https://arxiv.org/abs/2207.14024)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/safety-enhanced-autonomous-driving-using-1/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=safety-enhanced-autonomous-driving-using-1)
 
-This repository contains code for the paper [Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer](https://github.com/opendilab/InterFuser). The paper has been accepted by CoRL 2022 and we will release the code soon.
-
-This work fully processes and fuses information from multi-modal multi-view sensors for achieving comprehensive scene understanding. Besides, intermediate interpretable features are generated from our framework, which provides more semantics and is exploited to better constrain actions to be within the safe sets.
+This repository contains code for the paper [Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer](https://github.com/opendilab/InterFuser). This work fully processes and fuses information from multi-modal multi-view sensors for achieving comprehensive scene understanding. Besides, intermediate interpretable features are generated from our framework, which provides more semantics and is exploited to better constrain actions to be within the safe sets.
 Our method achieved new state-of-the-art on [CARLA AD Leaderboard](https://leaderboard.carla.org/leaderboard/) by June 11 2022.
 
 ## Demo Video
