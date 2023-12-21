@@ -9,6 +9,8 @@
 This repository contains code for the paper [Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer](https://github.com/opendilab/InterFuser). This work fully processes and fuses information from multi-modal multi-view sensors for achieving comprehensive scene understanding. Besides, intermediate interpretable features are generated from our framework, which provides more semantics and is exploited to better constrain actions to be within the safe sets.
 Our method achieved new state-of-the-art on [CARLA AD Leaderboard](https://leaderboard.carla.org/leaderboard/) by June 11 2022.
 
+## News
+
 [12/21] Now, a similar dataset can be found in [here](https://github.com/opendilab/LMDrive). The only difference is the sample rate is 10Hz in that repo, instead of 2Hz of InterFuser.
 
 ## Demo Video
