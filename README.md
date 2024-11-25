@@ -54,6 +54,7 @@ easy_install carla/PythonAPI/carla/dist/carla-0.9.10-py3.7-linux-x86_64.egg
 ```
 
 **Note:** we choose the setuptools==41 to install because this version has the feature `easy_install`. After installing the carla.egg you can install the lastest setuptools to avoid *No module named distutils_hack*.
+
 **Note:** FAQ: https://github.com/opendilab/InterFuser/issues/107
 
 ## Dataset
